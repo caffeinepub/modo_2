@@ -10,7 +10,6 @@ import LookbookTile from "./components/LookbookTile";
 import MusicPlayer from "./components/MusicPlayer";
 import NewArrivals from "./components/NewArrivals";
 import Testimonials from "./components/Testimonials";
-import VideoSection from "./components/VideoSection";
 
 export default function App() {
   return (
@@ -42,7 +41,6 @@ export default function App() {
               transition={{ duration: 0.5, delay: 0.15 }}
             >
               <NewArrivals />
-              <VideoSection />
               <LookbookTile />
               <Testimonials />
             </motion.div>
