@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import AnnouncementBanner from "./components/AnnouncementBanner";
 import CategoryTiles from "./components/CategoryTiles";
+import ChatBot from "./components/ChatBot";
 import FeaturedArrivals from "./components/FeaturedArrivals";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -49,6 +50,7 @@ export default function App() {
 
       <Footer />
       <MusicPlayer />
+      <ChatBot />
     </div>
   );
 }
